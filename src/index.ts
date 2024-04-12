@@ -1,5 +1,5 @@
 import { JSONfrequencyNormalize, JSONIsFrequency, JSONinterval, randomElement } from "./helpers.js";
-import data from "./data/user-agents.json" assert { type: "json" };
+import data from "./data/user-agents.json";
 export const randUA = (
   device: string,
   browser: string | null = null,
