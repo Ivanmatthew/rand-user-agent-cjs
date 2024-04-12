@@ -1,6 +1,12 @@
-import { JSONfrequencyNormalize, JSONIsFrequency, JSONinterval, randomElement } from "./helpers.js";
-import data from "./data/user-agents.json" assert { type: "json" };
-export const randUA = (
+//import { JSONfrequencyNormalize, JSONIsFrequency, JSONinterval, randomElement } from "./helpers.js";
+const { JSONfrequencyNormalize, JSONIsFrequency, JSONinterval, randomElement } = require("./helpers.js");
+
+//import data from "./data/user-agents.json" assert { type: "json" };
+const data = require("./data/user-agents.json");
+const assert = require("assert");
+assert.strictEqual(typeof data, "object", "Imported data is not of type 'object'");
+
+function randUA(
   device: string,
   browser: string | null = null,
   os: string | null = null,
@@ -35,3 +41,5 @@ export const randUA = (
     content[options[Math.floor(Math.random() * options.length)]]
   );
 };
+
+exports.randUA = randUA
