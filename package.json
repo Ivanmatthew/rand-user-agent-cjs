@@ -16,7 +16,7 @@
     "url": "git+https://github.com/ahmedrangel/rand-user-agent.git"
   },
   "homepage": "https://github.com/ahmedrangel/rand-user-agent#readme",
-  "type": "module",
+  "type": "commonjs",
   "keywords": [
     "user-agent",
     "user",
