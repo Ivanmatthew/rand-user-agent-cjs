@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahmedrangel/rand-user-agent.git"
+    "url": "git+https://github.com/Ivanmatthew/rand-user-agent-cjs.git"
   },
-  "homepage": "https://github.com/ahmedrangel/rand-user-agent#readme",
+  "homepage": "https://github.com/Ivanmatthew/rand-user-agent-cjs#readme",
   "type": "commonjs",
   "keywords": [
     "user-agent",
@@ -32,7 +32,7 @@
   "author": "ahmedrangel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ahmedrangel/rand-user-agent/issues"
+    "url": "https://github.com/Ivanmatthew/rand-user-agent-cjs/issues"
   },
   "files": [
     "dist"
@@ -48,7 +48,7 @@
   },
   "changelog": {
     "repo": {
-      "repo": "ahmedrangel/rand-user-agent",
+      "repo": "Ivanmatthew/rand-user-agent-cjs",
       "provider": "github",
       "domain": "github.com"
     }
