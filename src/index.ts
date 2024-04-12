@@ -10,7 +10,7 @@ function randUA(
   device: string,
   browser: string | null = null,
   os: string | null = null,
-): string => {
+): string {
 
   let content: Record<string, any> = data;
   content = JSONfrequencyNormalize(content);
@@ -42,4 +42,4 @@ function randUA(
   );
 };
 
-exports.randUA = randUA
+exports.randUA = randUA;
