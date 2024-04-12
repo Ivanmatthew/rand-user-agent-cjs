@@ -1,5 +1,5 @@
 {
-  "name": "@ahmedrangel/rand-user-agent",
+  "name": "@ivanmatthew/rand-user-agent-cjs",
   "version": "2.0.14",
   "description": "This is an adapted version of rand-user-agent by WebScrapingAPI specifically designed for environments lacking access to server file systems (fs), such as Cloudflare Workers.",
   "exports": "./dist/index.js",
